@@ -1,2 +1,2 @@
 # test-website
-Static-generated website for learning HTML, CSS, and JavaScript. Hopefully coming soon to a URL near you!
+Static-generated website for learning HTML, CSS, and JavaScript. Hosted at https://blakes10497test.netlify.app/!
