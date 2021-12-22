@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- a comment! -->
+
+<html>
+	<head>
+		<!-- "Head" contains info about the website. You also specify where to load CSS and JavaScript files from! -->
+
+		<!-- meta tags-->
+		<meta charset = "utf-8">
+		<meta name = "viewport", content = "width=device-width, initial scale=1, shrink-to-fit=no">
+
+		<!-- title tag! (name your website!) -->
+		<title>My First Website!</title>
+	</head>
+	<body>
+		<!-- "Body" contains what the client sees about the website. -->
+
+		<!-- headers: h1 to h6, determining size of font (like header 1, 2, 3, etc in Word) -->
+		<h1>My First Website</h1>
+		<h2>Let's try some stuff!</h2>
+		<h3>Above are h1 and h2</h3>
+		<h4>...all the way down</h4>
+		<h5>...to the smallest</h5>
+		<h6>...h6!</h6>
+		<h3>But this size (h3) is usually the smallest you'll want to go.</h3>
+
+
+		My first website <b>ever!</b> Wow!
+
+		<!-- now we'll throw in some Lorem Ipsum (random Latin text for testing out page layouts): -->
+		<p> <!-- using <p> to separate paragraphs -->
+		 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at turpis eu lacus accumsan volutpat. Etiam pulvinar pulvinar orci at congue. Cras pretium mi non purus tristique, et fringilla diam vehicula. Nullam tristique mattis varius. Nulla ut condimentum ex. Etiam tincidunt tortor sed lorem consequat, eu fermentum velit sodales. Aliquam cursus, orci a luctus malesuada, dolor ligula ultricies velit, vitae laoreet dolor ipsum laoreet turpis. Nulla ac ultrices nunc. Sed nisi nisl, tempus vel turpis eu, rhoncus ultrices eros. 
+		</p>
+
+		<p>
+			 Phasellus a imperdiet ligula, a imperdiet tortor. Ut scelerisque nisi quis lacus finibus fringilla. Proin dolor dolor, ornare tincidunt tincidunt nec, fringilla sit amet lorem. Suspendisse sit amet diam urna. In hac habitasse platea dictumst. Morbi semper neque vulputate lorem dictum, in dignissim augue commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna sed malesuada rutrum, dui velit commodo tortor, quis ullamcorper eros dui at orci. In vitae urna mi. Vivamus ex elit, ullamcorper vitae tincidunt non, convallis id lorem. Etiam pharetra sodales tincidunt. 
+		</p>
+
+		<!-- more lorem ipsum, but separated by page breaks (<br>): -->
+		 Nullam fringilla sodales dolor a mattis.<br><br>
+
+		 Donec erat mauris, vehicula in ex in, pretium condimentum lectus. Ut tristique eros vitae ante sollicitudin pellentesque. Nam feugiat turpis ut elit imperdiet, nec vestibulum metus posuere. Morbi mattis gravida pulvinar. Ut ornare, nisi at sollicitudin volutpat, ante mi egestas urna, id laoreet lacus neque vitae ligula. Nam sed elit ut metus ultrices mattis sed in dui. Donec ut sagittis elit, ut consectetur ante. Proin sit amet fermentum nibh, quis condimentum magna. Nunc quis mattis libero, et mollis nunc. Mauris id rhoncus eros. Nulla et bibendum lectus, ac tincidunt massa.
+
+		 <!-- general rule of thumb: if it doesn't enclose something, it doesn't need a closing </...> tag. -->
+
+		 <!-- let's try some style tags! -->
+		 <br><br>
+		 Here is some <b>bold</b> text.	<br>
+		 Here are <i>italics!</i>		<br>
+		 And finally, <u>underlines.</u><br>
+
+		 <!-- <em> is commonly interpreted like <i>, and <strong> is commonly interpreted like <b>. -->
+
+
+		 <!-- let's space things out with a line: -->
+		 <hr>
+		 <!-- and continue on below with a link. -->
+
+		 Check out this <a href="https://coder-coder.com/how-to-make-simple-website-html/", target = "_blank">article!</a> <br>
+		 <!-- "href" = hypertext reference. It is an attribute that gives the <a> (anchor) tab a website link. -->
+		 <!-- "target" defines where the link will be opened (this tab, new tab, etc)-->
+		 She seems to know what she's talking about.<br><br>
+
+
+		 <!-- now let's add an image! -->
+		 <img src="https://imgs.xkcd.com/comics/circuit_diagram.png"><br>
+		 (Image credit: <a href="https://xkcd.com/730/">XKCD comics</a>)<br><br>
+
+		 <!-- now for some lists: -->
+		 Here's a <u>bulleted</u> list!
+		 <ul> <!-- "unordered list" -->
+		 	<li>some things</li>
+		 	<li>in no particular order</li>
+		 		<li>including this,</li> 	<!-- this is called nesting, when tags are within other tags! -->
+		 		<li>that,</li>				<!-- inner tags are child elements, and outer tags are parent elements. -->
+		 		<li>and the other.</li>
+		 </ul>
+
+		 And here's a <u>numbered</u> list!
+		 <ol> <!-- "ordered list" -->
+		 	<li>Thing one</li>
+		 	<li>Thing two</li>
+		 </ol>
+		 <br><br>
+
+		 <!-- and finally, tables: -->
+		 Bucket list!
+		 <table border="1" cellpadding="10" cellspacing="0"> <!-- note "1" and "1px" are not necessarily the same! -->
+		 	<tr> <!-- "table row" -->
+		 		<th>Item</th> <!-- "table header" -->
+		 		<th colspan="2">Status</th> <!-- colspan determines number of columns under this header -->
+		 		<th>Coolness factor</th>
+		 	</tr> <!-- above table row includes headers because we labelled them as <th>s. -->
+		 	<tr>
+		 		<td>Make a website</td> <!-- "table data" -->
+		 		<td>Done! </td><td>(for starters, anyway!)</td>
+		 		<td><b>10/10</b></td>
+		 	<tr>
+		 </table> <br><br> <!-- Be careful! Use the same number of header/data elements per row or things will get messy! -->
+		 <!-- rowspan exists as well (similar to colspan, but for rows!). -->
+		 <!-- tables were traditionally used for website layout as well! Yikes! -->
+
+
+		 Many thanks to <a href="https://coder-coder.com/">Jessica Chan</a> for making an <b>amazing</b> get-started article on simple HTML websites!
+
+
+
+
+	</body>
+<html>
